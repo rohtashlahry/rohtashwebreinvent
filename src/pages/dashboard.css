@@ -1,0 +1,76 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.fetchbtn {
+  /* width: 100%; */
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 10px;
+}
+/* UserList.css */
+.user-list {
+  margin-top: 20px;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-item:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+.user-image {
+  margin-right: 20px;
+}
+
+.user-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.user-details strong {
+  font-size: 16px;
+}
+
+.user-details p {
+  font-size: 14px;
+  color: #666;
+}
+
+.landing-container{
+    display: flex;
+}
+.landing-btns{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+.landing-img{
+    width: 50%;
+    height: 80vh;
+    overflow: hidden;
+}
